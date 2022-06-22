@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
         <!--Шапка профиля-->
@@ -27,32 +27,20 @@
    </nav>
     <ul class="site-contacts">
         <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-        <li><a href="tel:+38 096 111 11 11" class="link">+38 096 111 11 11</a></li>
+        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
     </ul>
     
 </header>
-
+<main>
 <!--Список работ-->
 <section>
-    <ul class="job-list">
-        <button>
-            <a href=""class="job-link">Все</a>
-        </button>
-        <button>
-            <a href=""class="job-link">Веб-сайты</a>
-        </button>
-        <button>
-            <a href=""class="job-link">Приложения</a>
-        </button>
-        <button>
-            <a href=""class="job-link">Дизайн</a>
-        </button>
-        <button>
-            <a href=""class="job-link">Маркетинг</a>
-        </button>
+    <ul>
+        <li><button class="button" type="button">Все</button></li>
+        <li><button class="button" type="button">Веб-сайты</button></li>
+        <li><button class="button" type="button">Приложения</button></li>
+        <li><button class="button" type="button">Дизайн</button></li>
+        <li><button class="button" type="button">Маркетинг</button></li>
     </ul>
-</section>
-<section>
     <ul>
         <li>
             <a href=""><img src="./images/portfolio1.jpg" width="370" alt="Макбук">
@@ -108,18 +96,22 @@
             <p class="job-text">Приложение</p>
             </a>
         </li>
-    </ul>
-</section>
+    </ul>  
+</section>     
+</main>
 <!--Футер-->
 <footer class="footer">
     <a href="./index.html" class="logo-footer"> <span class="title">Web</span>Studio
     </a>
-    <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26 <br>
-        <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a><br>
-        <a href="tel:+38 096 111 11 11" class="link">+38 096 111 11 11</a>
+    <address class="footer-adress">
+        <ul>
+            <li><a href="https://goo.gl/maps/piqngm7oDQpEDh6u6" class="map" target="_blank"
+                    rel="noopener nofollow noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+        </ul>
     </address>
 
 </footer>
-    
 </body>
 </html>
