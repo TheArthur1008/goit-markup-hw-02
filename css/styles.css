@@ -129,6 +129,7 @@ ul {
 
 .peculiarities-title {
     color: var(--primary-text-color);
+    font-size: 16px;
     line-height: 1.1;
     text-transform: uppercase;
 }
@@ -143,7 +144,7 @@ ul {
 .work {
 
 }
-.work-title {
+.section-title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -160,11 +161,7 @@ ul {
 .team {
     background-color: var(--background-grey-color);
 }
-.team-title {
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-}
+
  
 .team-list {
     width: 270px;
@@ -200,6 +197,10 @@ ul {
     font-style: normal;
     line-height: 1.71;
     text-decoration: none;
+}
+.footer-adress .link:hover,
+.footer-adress .link:focus {
+    color: var(--accent-color);
 }
 
 .logo-footer {
@@ -244,4 +245,7 @@ ul {
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.88;
+}
+.job-link {
+    text-decoration: none;
 }
